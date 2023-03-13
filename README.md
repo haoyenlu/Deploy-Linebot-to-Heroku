@@ -3,7 +3,7 @@ Deploy test line bot, python line-bot-sdk, on heroku
 #### Step1: create heroku account and line developer account
 - you can reffer to this youtube video to learn how to create line developer account and create massaging API
 https://www.youtube.com/watch?v=eGTldX8zpA0
-- also create line bot provide and channel beforehand
+- also create line bot **provider** and **channel** beforehand
 ---
 #### Step2: download heroku sdk
 - After downloading heroku sdk use the code below to test if correctly install (You may want to restart the computer)
