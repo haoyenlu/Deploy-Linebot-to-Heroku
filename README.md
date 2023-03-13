@@ -64,7 +64,7 @@ git remote heroku master
 ![螢幕擷取畫面 2023-03-13 171208](https://user-images.githubusercontent.com/74141558/224833401-04a94a42-2f11-4a46-b8fd-a9ecb2420228.png)
 - go in to the app you create and click settings
 ![螢幕擷取畫面 2023-03-13 171234](https://user-images.githubusercontent.com/74141558/224833638-65d643b1-175b-45d5-aad1-eb925ad67faa.png)
-- click reveal config vars
+- click reveal config vars 
 ![image](https://user-images.githubusercontent.com/74141558/224833735-8a8eb940-5c47-4ba6-8d70-48ca7acf84cf.png)
 
 
