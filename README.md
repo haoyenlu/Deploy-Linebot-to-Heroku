@@ -56,11 +56,14 @@ heroku git:remote -a {your app name, in this case:sheltered-savannah-43690}
 ```
 ---
 #### Step6: push the app to heroku
+- push the app to heroku
 ```
 git add .
 git commit -am "push app to heroku"
-git remote heroku master
+git push heroku master
 ```
+- it will deploy the app and display the app address (remember the address)
+![螢幕擷取畫面 2023-03-13 173236](https://user-images.githubusercontent.com/74141558/224837283-bfa21c61-f95e-4c57-941d-ec38b053a50e.png)
 ---
 #### Step7: change the environment variable in your heroku app settings
 - go to your heroku dashboard, and you will see the app you created display in your dashboard
