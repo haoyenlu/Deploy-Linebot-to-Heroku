@@ -7,7 +7,7 @@ Deploy test line bot, python line-bot-sdk, on heroku
 ```
 heroku --version
 ```
-- Login to heroku account is console
+- Login to your heroku account in console
 ```
 heroku login
 ```
@@ -19,5 +19,29 @@ heroku login
 git init
 ```
 ---
-#### Step4:
+#### Step4: create app.py
+- create a file called app.py
+- copy the example code from line-bot-sdk (https://github.com/line/line-bot-sdk-python) or clone this repository
+```
+git clone https://github.com/haoyenlu/deploy-test-linebot-to-heroku.git
+```
+- create Procfile and requirements.txt (use the file in this repository for example)
+  - to create requirements.txt
+```
+pip freeze > requirements.txt
+```
+  - to create Procfile
+```
+web gunicorn app:app
+```
+---
+#### Step5: create heroku app
+- create a heroku app by using the command in your console
+```
+heroku create
+```
+![螢幕擷取畫面 2023-03-13 170234](https://user-images.githubusercontent.com/74141558/224831612-c1c8cbbd-ecc1-4ab1-ae29-6759b8d35f34.png)
+
+
+
 
