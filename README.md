@@ -1,7 +1,5 @@
 # deploy-test-linebot-to-heroku
----
 Deploy test line bot, python line-bot-sdk, on heroku
----
 #### Step1: create heroku account
 ---
 #### Step2: download heroku sdk
