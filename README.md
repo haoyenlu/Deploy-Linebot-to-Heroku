@@ -1,4 +1,4 @@
-# deploy-test-linebot-to-heroku
+# Deploy Simple Test Linebot to Heroku
 Deploy test line bot, python line-bot-sdk, on heroku
 #### Step1: create heroku account and line developer account
 - you can reffer to this youtube video to learn how to create line developer account and create massaging API
